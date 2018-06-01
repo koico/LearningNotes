@@ -14,6 +14,82 @@
 + 2
 + 3
 ---
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
-内容
+```javascript {.class1 .class}
+function add(x, y) {
+  return x + y
+}
 ```
+
+```java {.line-numbers} 
+{
+int
+ada
+}
+```
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+- [x] aaaaa
+- [ ] bbbb
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+表头  | 内容
+---- |----
+你好|哈哈
+ahhaha |hahaha 
+
+
+|a   |  b|
+|----|----|
+|   |d|
+|^  |e|
+
+
+:smile:
+:fa-car:
+:boy:
+:girl:
+
+30^th^
+
+
+85 ^o^C
+
+85~o~C
+
+Content [^1]
+haha[^2]
+
+[^1]: Hi! This is a footnote
+[^2]:haha! This
+
+==mark==
+`mark`
+
+
+添加 {++ ++}
+删除 {-- --}
+替换 {~~ ~> ~~}
+注释 {>> <<}
+高亮 {== ==}{>> <<}
+
+{++ a ++}
+
+
+Title: Here is a title
+A->B: Normal line
+B-->C: Dashed line
+C->>D: Open arrow
+D-->>A: Dashed open arrow

@@ -47,14 +47,14 @@ Content in the first column | Content in the second column
 
 表头  | 内容
 ---- |----
-你好|哈哈
-ahhaha |hahaha 
+a    | b   
+c    | d 
 
 
-|a   |  b|
+|a   |   b|
 |----|----|
-|   |d|
-|^  |e|
+| c  |   d|
+|^   |   e|
 
 
 :smile:

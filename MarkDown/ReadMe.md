@@ -41,8 +41,9 @@ function add(x, y) {
 
 ```java {.line-numbers} 
 {
-int
-ada
+ for(int i; i<10; i++){
+  system.out.println(i);
+ }
 }
 ```
 

@@ -58,15 +58,10 @@ ahhaha |hahaha
 
 
 :smile:
-:fa-car:
 :boy:
 :girl:
 
 
-[^1]: Hi! This is a footnote
-[^2]:haha! This
-
-==mark==
 `mark`
 
 

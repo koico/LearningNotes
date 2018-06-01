@@ -51,7 +51,7 @@ function add(x, y) {
 ```java {.line-numbers} 
 {
  for(int i; i<10; i++){
-  system.out.println(i);
+  System.out.println(i);
  }
 }
 ```
@@ -95,3 +95,6 @@ c    | d
 ---
 
 [Here](https://github.com/koico/LearningNotes/blob/master/MarkDown/ReadMe.md)
+
+---
+

@@ -62,15 +62,6 @@ ahhaha |hahaha
 :boy:
 :girl:
 
-30^th^
-
-
-85 ^o^C
-
-85~o~C
-
-Content [^1]
-haha[^2]
 
 [^1]: Hi! This is a footnote
 [^2]:haha! This
@@ -79,17 +70,4 @@ haha[^2]
 `mark`
 
 
-添加 {++ ++}
-删除 {-- --}
-替换 {~~ ~> ~~}
-注释 {>> <<}
-高亮 {== ==}{>> <<}
 
-{++ a ++}
-
-
-Title: Here is a title
-A->B: Normal line
-B-->C: Dashed line
-C->>D: Open arrow
-D-->>A: Dashed open arrow
